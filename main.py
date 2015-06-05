@@ -38,7 +38,7 @@ class ButtonHandler(webapp2.RequestHandler):
             memcache.set("recent2_time", last_time2);
             memcache.set("recent1_time", last_time);
             memcache.set("recent0_time", current_time_str);
-            mail.send_mail(sender="krishnaraoveera1294@gmail.com",
+            mail.send_mail(sender="guywithgutsforever@gmail.com",
               to="trigger@recipe.ifttt.com",
               subject="trigger email",
               body="Whatever")
